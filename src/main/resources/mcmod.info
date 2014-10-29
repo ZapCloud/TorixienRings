@@ -1,0 +1,16 @@
+[
+{
+  "modid": "torixienrings",
+  "name": "Torixien Rings",
+  "description": "",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["eekysam"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
