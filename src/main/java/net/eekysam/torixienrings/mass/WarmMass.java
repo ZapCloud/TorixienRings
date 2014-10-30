@@ -20,4 +20,10 @@ public class WarmMass extends PureMass
 	{
 		return EnumMassCharge.POSITIVE;
 	}
+	
+	@Override
+	public int getRawColor()
+	{
+		return 0xFFDDA6;
+	}
 }

@@ -3,7 +3,7 @@
 #################
 
 *.pydevproject
-.gradle/
+
 .project
 .metadata
 bin/
@@ -19,10 +19,6 @@ local.properties
 .loadpath
 crash-reports/
 logs/
-mods/
-resourcepacks/
-saves/
-/options.txt
 
 # External tool builders
 .externalToolBuilders/
@@ -35,3 +31,17 @@ saves/
 
 # PDT-specific
 .buildpath
+
+#################
+## Forge
+#################
+
+.gradle/
+mods/
+resourcepacks/
+saves/
+/options.txt
+
+#################
+## Dev
+#################

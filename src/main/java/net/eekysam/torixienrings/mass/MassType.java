@@ -40,6 +40,8 @@ public abstract class MassType
 	
 	public abstract double invertActivation();
 	
+	public abstract int getRawColor();
+	
 	public final double groundEnergy(double quantity)
 	{
 		return this.potentialEnergy() * quantity;

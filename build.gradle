@@ -38,6 +38,9 @@ dependencies
 
 processResources
 {
+	// For developing textures only
+    exclude '**/*.pdn'
+	
     // replace stuff in mcmod.info, nothing else
     from(sourceSets.main.resources.srcDirs) 
 	{

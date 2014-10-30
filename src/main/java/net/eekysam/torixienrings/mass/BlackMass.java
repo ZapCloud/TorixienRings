@@ -20,4 +20,10 @@ public class BlackMass extends CanceledMass
 	{
 		return null;
 	}
+	
+	@Override
+	public int getRawColor()
+	{
+		return 0x141414;
+	}
 }

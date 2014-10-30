@@ -14,4 +14,10 @@ public class NormalMass extends SolidMass
 	{
 		return MassType.ANTI;
 	}
+	
+	@Override
+	public int getRawColor()
+	{
+		return 0x808080;
+	}
 }

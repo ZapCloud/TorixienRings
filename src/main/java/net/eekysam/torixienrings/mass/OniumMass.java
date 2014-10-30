@@ -50,4 +50,10 @@ public class OniumMass extends MassType
 	{
 		return 0.0D;
 	}
+	
+	@Override
+	public int getRawColor()
+	{
+		return 0xF0F0F0;
+	}
 }

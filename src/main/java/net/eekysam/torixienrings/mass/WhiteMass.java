@@ -20,4 +20,10 @@ public class WhiteMass extends CanceledMass
 	{
 		return MassType.NORMAL;
 	}
+	
+	@Override
+	public int getRawColor()
+	{
+		return 0xEDEDED;
+	}
 }

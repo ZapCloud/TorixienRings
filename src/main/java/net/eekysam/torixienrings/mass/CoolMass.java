@@ -20,4 +20,10 @@ public class CoolMass extends PureMass
 	{
 		return EnumMassCharge.NEGATIVE;
 	}
+	
+	@Override
+	public int getRawColor()
+	{
+		return 0xA6C8FF;
+	}
 }
